@@ -12,6 +12,7 @@ on:
 jobs:
   build:
 
+    # Para ejecutar comandos del servidor, no crear contenedor.
     runs-on: self-hosted
 
     strategy:
